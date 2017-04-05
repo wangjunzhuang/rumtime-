@@ -19,13 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- //  NSDictionary * dic = @{@"secondModel":@[@{@"username":@"傻瓜",@"realname":@"王麻子"},@{@"username":@"傻瓜2",@"realname":@"王麻子2"}],@"pig_name":@"傻鸟",@"pig_age":@"12"};
-
-    NSDictionary * dic = @{@"secondModel":@{@"username":@"傻瓜",@"realname":@"王麻子"},@"pig_name":@"傻鸟",@"pig_age":@"12"};
-//    NSDictionary * dic = @{@"username":@"傻瓜",@"realname":@"王麻子",@"pig_name":@"傻鸟",@"pig_age":@"12"};
-    //NSDictionary * dic = @{@"pig_name":@"傻鸟",@"pig_age":@"12"};
-//    model = [[DYModel alloc]init];
-//    model.pig_name = @"111";
+   NSDictionary * dic = @{@"secondModel":@[@{@"username":@"傻瓜",@"realname":@"王麻子"},@{@"username":@"傻瓜2",@"realname":@"王麻子2"}],@"pig_name":@"傻鸟",@"pig_age":@"12"};
     
     model = [DYModel list_modelWithDic:dic];
    // DYSeconModel *secondModel = model.secondModel;

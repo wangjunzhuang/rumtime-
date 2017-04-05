@@ -15,7 +15,6 @@
 		2451CA2D1E88ECF4000F18DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2451CA2B1E88ECF4000F18DF /* LaunchScreen.storyboard */; };
 		2451CA381E88ECF4000F18DF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2451CA371E88ECF4000F18DF /* testTests.m */; };
 		2451CA431E88ECF4000F18DF /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2451CA421E88ECF4000F18DF /* testUITests.m */; };
-		246987FF1E8D0926006D8A98 /* touxiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 246987FE1E8D0926006D8A98 /* touxiang.jpg */; };
 		24BD766A1E8F876E0025B7C1 /* NSObject+DYlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD76691E8F876E0025B7C1 /* NSObject+DYlistModel.m */; };
 		24CE45BB1E8F4EA6009CE04E /* DYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CE45BA1E8F4EA6009CE04E /* DYModel.m */; };
 		24CE45C11E8F5312009CE04E /* NSObject+DYCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CE45C01E8F5312009CE04E /* NSObject+DYCustom.m */; };
@@ -56,7 +55,6 @@
 		2451CA3E1E88ECF4000F18DF /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2451CA421E88ECF4000F18DF /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		2451CA441E88ECF4000F18DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		246987FE1E8D0926006D8A98 /* touxiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = touxiang.jpg; sourceTree = "<group>"; };
 		24BD76681E8F876E0025B7C1 /* NSObject+DYlistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DYlistModel.h"; sourceTree = "<group>"; };
 		24BD76691E8F876E0025B7C1 /* NSObject+DYlistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DYlistModel.m"; sourceTree = "<group>"; };
 		24CE45B91E8F4EA6009CE04E /* DYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYModel.h; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		2451CA1C1E88ECF4000F18DF /* test */ = {
 			isa = PBXGroup;
 			children = (
-				246987FE1E8D0926006D8A98 /* touxiang.jpg */,
 				2451CA201E88ECF4000F18DF /* AppDelegate.h */,
 				2451CA211E88ECF4000F18DF /* AppDelegate.m */,
 				2451CA231E88ECF4000F18DF /* ViewController.h */,
@@ -271,7 +268,6 @@
 			files = (
 				2451CA2D1E88ECF4000F18DF /* LaunchScreen.storyboard in Resources */,
 				2451CA2A1E88ECF4000F18DF /* Assets.xcassets in Resources */,
-				246987FF1E8D0926006D8A98 /* touxiang.jpg in Resources */,
 				2451CA281E88ECF4000F18DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
